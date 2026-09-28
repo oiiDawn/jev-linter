@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --project \"${CLAUDE_PLUGIN_ROOT}\" python \"${CLAUDE_PLUGIN_ROOT}/jev_lint.py\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

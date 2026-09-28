@@ -1,0 +1,11 @@
+{
+  "name": "jev-linter",
+  "owner": { "name": "oiiDawn" },
+  "plugins": [
+    {
+      "name": "jev-lint",
+      "source": "./",
+      "description": "Fuzzy linter: judges each edit against tiny plain-language rules with Jev (TypeSafe System One)."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "jev-lint",
+  "version": "0.1.0",
+  "description": "Fuzzy linter: judges each edit against tiny plain-language rules with Jev (TypeSafe System One)."
+}
